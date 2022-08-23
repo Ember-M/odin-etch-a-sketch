@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: black;
+}
+.bodyDiv{
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#gridContainer{
+    display: grid;
+
+
+    height: 800px;
+    width: 800px;
+
+}
+.sizeButton,.clearButton,.colorButton{
+    height: 100px;
+}
+
+button{
+    border: 1px solid grey;
+    width: auto;
+    height: auto;
+}
+button:hover{
+    background-color: black;
+}
